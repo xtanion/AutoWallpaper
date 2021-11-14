@@ -9,20 +9,20 @@ git clone https://github.com/xtanion/AutoWallpaper.git
 ```
 Make the `.sh` file executable
 ```
-chmod +x japan-day-night-auto.sh
-./japan-day-night-auto.sh 
+chmod +x day-night-auto-wallpaper.sh
+./day-night-auto-wallpaper.sh 
 ```
 ## Run on Startup
 We'll be using `crontab` to execute the shell command on startup.</br>
 Refer to [this](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/#) article on GFG to know more about `crontab`.
 ```
 crontab -e # should openup the editor 
-@reboot path/japan-day-nigh-streets/japan-day-night-auto.sh
+@reboot path/AutoWallpaper/day-night-auto-wallpaper.sh
 ```
 ## Run on schedule
 In the editing window of crontab add the following command:
 ```
-00 4,8,17,20 * * * path/japan-day-nigh-streets/japan-day-night-auto.sh
+00 4,8,17,20 * * * path/AutoWallpaper/day-night-auto-wallpaper.sh
 ```
 save and exit the editor. & It's Done.
 <div align="center">
