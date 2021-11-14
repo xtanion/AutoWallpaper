@@ -14,7 +14,7 @@ chmod +x japan-day-night-auto.sh
 ```
 ## Run on Startup
 We'll be using `crontab` to execute the shell command on startup.</br>
-Refer to this article on GFG to know more about `crontab`.
+Refer to [this](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/#) article on GFG to know more about `crontab`.
 ```
 crontab -e # should openup the editor 
 @reboot path/japan-day-nigh-streets/japan-day-night-auto.sh
