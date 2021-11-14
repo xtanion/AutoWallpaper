@@ -1,6 +1,6 @@
 # Auto Wallpaper
 
-Set of beautiful wallpapers of a street in Japan that changes according to time of the day,
+A shell script to set beautiful wallpapers of a street in Japan that changes according to time of the day (or any set of wallpapers you want),
 All of the following commands are tested on Fedora-34 running GNOME-40.
 ## Setup
 Cloning the repo
