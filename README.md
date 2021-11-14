@@ -25,6 +25,8 @@ In the editing window of crontab add the following command:
 00 4,8,17,20 * * * path/AutoWallpaper/day-night-auto-wallpaper.sh
 ```
 save and exit the editor. & It's Done.
+## Changing Wallpapers
+There are 4 wallpapers in [wallpapers](https://github.com/xtanion/AutoWallpaper/wallpapers) directory. To use new set of wallpaers, replace old 4 with new images and rename your wallpaper files to `morning`,`day`,`evening`&`night`.
 <div align="center">
-  <h6> Enjoy!</h6>
+  <h6> Enjoy! </h6>
 </div>
