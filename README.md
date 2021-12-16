@@ -16,7 +16,10 @@ chmod +x day-night-auto-wallpaper.sh
 We'll be using `crontab` to execute the shell command on startup.</br>
 Refer to [this](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/#) article on GFG to know more about `crontab`.
 ```
-crontab -e # should openup the editor 
+crontab -e
+```
+Should open up editor 
+```
 @reboot path/AutoWallpaper/day-night-auto-wallpaper.sh
 ```
 ## Run on schedule
